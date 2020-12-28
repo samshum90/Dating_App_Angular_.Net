@@ -10,5 +10,10 @@ namespace API.Extensions
             if (dob.Date > today.AddYears(-age)) age--;
             return age;
         }
+
+        internal static DateTime Now()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
